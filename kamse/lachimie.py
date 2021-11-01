@@ -4,7 +4,8 @@ def is_odd(numb):
         print("False") 
     else:
         print("True")    
-print("is_odd(numb)")        
+
+is_odd(numb)       
 
 
 def sum_numb(num1,num2):
@@ -12,5 +13,5 @@ def sum_numb(num1,num2):
     return add;
 num1 = int(input())    
 num2 = int(input())
-
+sum_numb(num1,num2)
 
